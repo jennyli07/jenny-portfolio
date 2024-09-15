@@ -1,0 +1,24 @@
+<style>
+        h1 {
+            text-align:left;
+            font-family:Helvetica;
+            font-size:50px;
+        }
+        nav {
+            text-align:right;
+            font-family:Helvetica;
+            font-size:15px;
+        }
+        body {
+            margin:100px;
+            background-color:rgb(211,211,211);
+        }
+        h2,h3,h4,h5 {
+            font-family:Helvetica;
+            font-size:20px;
+        }
+        img {
+            width:700px;
+            height:500px;
+        }
+</style>
