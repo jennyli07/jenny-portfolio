@@ -9,7 +9,6 @@ body {
     display:flex;
     justify-content:space-between;
     font-size:15px;
-    font-weight:bold;
 }
 .navigate {
     display:flex;
@@ -19,6 +18,18 @@ body {
     display:flex;
     justify-content:flex-end;
     gap:15px;
+}
+#home-bold {
+    font-weight:bold;
+}
+.hover1:hover {
+    color:#728C69;
+    border:10px, black;
+    font-weight:bold;
+}
+a {
+    text-decoration:none;
+    color:inherit;
 }
 .me {
     display:flex;
@@ -33,6 +44,21 @@ h1 {
     font-size:20px;
     color:#728C69;
 }
+.positioning1 {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.column-positioning1 {
+    display:flex;
+    flex-direction:column;
+    align-content:space-around;
+}
+.positioning2 {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
 .project-title {
     font-size:20px;
 }
@@ -42,7 +68,18 @@ h1 {
     color:#728C69;
 }
 img {
-    width:700px;
-    height:400px;
+    width:550px;
+    height:350px;
 }
+.footer {
+    display:flex;
+    justify-content:inline;
+    font-family:helvetica;
+}
+.footer-styles {
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
 
