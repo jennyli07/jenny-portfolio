@@ -1,3 +1,10 @@
+body {
+    margin-top:25px;
+    margin-left:150px;
+    margin-right:150px;
+    background-color:#EFEFE9;
+    font-family:helvetica;
+}
 .nav-bar {
     display:flex;
     justify-content:space-between;
@@ -12,7 +19,7 @@
     justify-content:flex-end;
     gap:15px;
 }
-#home-bold {
+#about-bold {
     font-weight:bold;
 }
 .hover1:hover {
@@ -23,4 +30,27 @@
 a {
     text-decoration:none;
     color:inherit;
+}
+.me {
+    display:flex;
+    flex-direction:column;
+    gap:0px;
+}
+h1 {
+    font-size:40px;
+    margin-top:150px;
+}
+img {
+    width:400px;
+    height:auto;
+}
+.footer {
+    display:flex;
+    justify-content:inline;
+    font-family:helvetica;
+}
+.footer-styles {
+    display:flex;
+    justify-content:center;
+    gap:15px;
 }

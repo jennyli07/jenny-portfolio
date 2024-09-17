@@ -24,7 +24,6 @@ body {
 }
 .hover1:hover {
     color:#728C69;
-    border:10px, black;
     font-weight:bold;
 }
 a {
@@ -53,6 +52,9 @@ h1 {
     display:flex;
     flex-direction:column;
     align-content:space-around;
+}
+.hover2:hover {
+    color:#728C69;
 }
 .positioning2 {
     display:flex;
