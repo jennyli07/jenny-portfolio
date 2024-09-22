@@ -1,1 +1,1 @@
-let user=prompt("JennyLi");
+let user=prompt("Enter Name");
