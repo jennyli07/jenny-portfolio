@@ -44,6 +44,21 @@ img {
     width:400px;
     height:auto;
 }
+.email {
+    display:flex;
+    flex-direction:row;
+    justify-content:inline;
+    gap:3px;
+    margin-top:150px;
+    margin-bottom:0px;
+    font-size:20px;
+}
+.connect {
+    color:#728C69;
+}
+.line-design {
+    padding-top:150;
+}
 .footer {
     display:flex;
     justify-content:inline;
@@ -54,3 +69,4 @@ img {
     justify-content:center;
     gap:15px;
 }
+    

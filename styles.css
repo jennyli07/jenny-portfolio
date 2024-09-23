@@ -64,6 +64,7 @@ h1 {
 }
 .hover2:hover {
     color:#728C69;
+    font-weight:bold;
 }
 .positioning2 {
     display:flex;
@@ -87,10 +88,19 @@ img {
     height:350px;
 }
 .email {
-    padding-bottom:5px;
+    display:flex;
+    flex-direction:row;
+    justify-content:inline;
+    gap:3px;
+    margin-top:150px;
+    margin-bottom:0px;
+    font-size:20px;
+}
+.connect {
+    color:#728C69;
 }
 .line-design {
-    padding-top:150px;
+    padding-top:150;
 }
 .footer {
     display:flex;
