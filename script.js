@@ -1,1 +1,7 @@
-let user=prompt("Enter Name");
+/*
+let user=prompt("Enter Name"); 
+*/
+
+
+
+

@@ -3,7 +3,7 @@ body {
     margin-left:150px;
     margin-right:150px;
     background-color:#EFEFE9;
-    font-family:helvetica;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-bar {
     display:flex;
@@ -33,20 +33,29 @@ a {
 .me {
     display:flex;
     flex-direction:column;
-    gap:0px;
+    gap:10px;
+    width:50%;
+    transition: background-color 0.5s ease;
 }
 h1 {
-    font-size:40px;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:2px;
     margin-top:150px;
 }
 .intro {
     font-size:20px;
     color:#728C69;
 }
+.background {
+    font-weight:light;
+    width:auto;
+}
 .positioning1 {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    padding-top:150px;
 }
 .column-positioning1 {
     display:flex;
@@ -60,18 +69,28 @@ h1 {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    padding-top:100px;
 }
 .project-title {
     font-size:20px;
+    padding-top:50px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif
 }
 .subtitle {
     font-size:15px;
-    font-family:helvetica;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     color:#728C69;
+    padding-top:10px;
 }
 img {
     width:550px;
     height:350px;
+}
+.email {
+    padding-bottom:5px;
+}
+.line-design {
+    padding-top:150px;
 }
 .footer {
     display:flex;
