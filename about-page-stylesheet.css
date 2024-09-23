@@ -3,7 +3,7 @@ body {
     margin-left:150px;
     margin-right:150px;
     background-color:#EFEFE9;
-    font-family:helvetica;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-bar {
     display:flex;
@@ -34,15 +34,26 @@ a {
 .me {
     display:flex;
     flex-direction:column;
-    gap:0px;
+    gap:10px;
+    width:50%;
 }
 h1 {
-    font-size:40px;
+    font-size:50px;
     margin-top:150px;
+    letter-spacing:2px;
+}
+h2 {
+    font-size:20px;
+    color:#728C69;
 }
 img {
+    margin-top:150px;
     width:400px;
     height:auto;
+}
+.about-image {
+    display:flex;
+    justify-content:flex-end;
 }
 .email {
     display:flex;
@@ -62,7 +73,7 @@ img {
 .footer {
     display:flex;
     justify-content:inline;
-    font-family:helvetica;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 .footer-styles {
     display:flex;
