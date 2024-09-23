@@ -47,7 +47,6 @@ h1 {
     color:#728C69;
 }
 .background {
-    font-weight:light;
     width:auto;
 }
 .positioning1 {
@@ -104,7 +103,6 @@ img {
 .footer {
     display:flex;
     justify-content:inline;
-    font-family:helvetica;
 }
 .footer-styles {
     display:flex;

@@ -31,23 +31,31 @@ a {
     text-decoration:none;
     color:inherit;
 }
-.me {
+.about-me {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-top:100px;
+}
+.me {
     gap:10px;
     width:50%;
 }
+.paragraph-spacing {
+    padding-top:15px;
+}
 h1 {
     font-size:50px;
-    margin-top:150px;
+    margin-top:50px;
     letter-spacing:2px;
 }
 h2 {
     font-size:20px;
     color:#728C69;
+    padding-top:15px;
 }
 img {
-    margin-top:150px;
+    margin-top:50px;
     width:400px;
     height:auto;
 }
