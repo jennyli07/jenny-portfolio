@@ -19,17 +19,34 @@ body {
     justify-content:flex-end;
     gap:15px;
 }
+#home-bold {
+    font-weight:bold;
+}
 .hover1:hover {
     color:#728C69;
     font-weight:bold;
 }
-.heading1 {
+.email {
     display:flex;
-    flex-direction:flex-end;
-}
-h1 {
-    font-size:50px;
-    font-weight:bold;
-    letter-spacing:2px;
+    flex-direction:row;
+    justify-content:inline;
+    gap:3px;
     margin-top:150px;
+    margin-bottom:0px;
+    font-size:20px;
+}
+.connect {
+    color:#728C69;
+}
+.line-design {
+    padding-top:150;
+}
+.footer {
+    display:flex;
+    justify-content:inline;
+}
+.footer-styles {
+    display:flex;
+    justify-content:center;
+    gap:15px;
 }
