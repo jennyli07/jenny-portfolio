@@ -1,7 +1,2 @@
-/*
-let user=prompt("Enter Name"); 
-*/
 
-
-
-
+let user=prompt('What is your name');
