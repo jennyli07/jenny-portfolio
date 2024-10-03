@@ -16,6 +16,7 @@ body {
 .navigate {
     display:flex;
     justify-content:inline;
+    gap:10px;
 }
 .container {
     display:flex;
@@ -44,7 +45,7 @@ a {
 }
 h1 {
     font-size:50px;
-    font-weight:bold;
+    font-weight:light;
     letter-spacing:2px;
     margin-top:150px;
 }
@@ -65,7 +66,7 @@ h1 {
     gap:3px;
     margin-top:150px;
     margin-bottom:0px;
-    font-size:20px;
+    font-size:16px;
 }
 .connect {
     color:#728C69;
