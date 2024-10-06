@@ -92,19 +92,19 @@ img {
 .connect {
     color:#728C69;
 }
+
 .line-design {
     padding-top:150px;
-} 
+}
 
 /*footer code*/
 
 .footer {
     display:flex;
-    justify-content:inline;
+    justify-content:center;
 }
 .footer-styles {
     display:flex;
-    justify-content:center;
     gap:15px;
 }
 
