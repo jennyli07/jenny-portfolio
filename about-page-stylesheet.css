@@ -61,38 +61,42 @@ h2 {
     color:#728C69;
     padding-top:15px;
 }
-img {
+
+.about-me-image {
     margin-top:50px;
     width:400px;
-    height:auto;
+    height:350px;
 }
+
 .about-image {
     display:flex;
     justify-content:flex-end;
 }
+
+/*lets connect code*/
+
 .email {
     display:flex;
     flex-direction:row;
     justify-content:inline;
-    gap:3px;
-    margin-top:150px;
-    margin-bottom:0px;
-    font-size:20px;
+    gap:10px;
+    margin-bottom:150px;
+    font-size:16px;
 }
-.connect {
-    color:#728C69;
-}
+
 .line-design {
-    padding-top:150;
+    padding-top:150px;
 }
+
+/*footer code*/
+
 .footer {
     display:flex;
-    justify-content:inline;
-    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    justify-content:center;
+    font-family:'Urbanist', sans-serif;
 }
 .footer-styles {
     display:flex;
-    justify-content:center;
     gap:15px;
 }
     

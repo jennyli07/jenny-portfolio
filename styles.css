@@ -36,7 +36,7 @@ a {
     color:inherit;
 }
 
-/*case studies layout code*/
+/*brief intro code*/
 
 .me {
     display:flex;
@@ -80,11 +80,10 @@ h1 {
 
 .footer {
     display:flex;
-    justify-content:inline;
+    justify-content:center;
 }
 .footer-styles {
     display:flex;
-    justify-content:center;
     gap:15px;
 }
 /*
