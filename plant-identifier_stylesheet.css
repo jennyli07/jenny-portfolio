@@ -2,9 +2,12 @@ body {
     margin-top:25px;
     margin-left:150px;
     margin-right:150px;
-    background-color:#EFEFE9;
-    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    font-family:'Urbanist', sans-serif;
 }
+
+/* nav-bar code */
+
 .nav-bar {
     display:flex;
     justify-content:space-between;
@@ -13,11 +16,16 @@ body {
 .navigate {
     display:flex;
     justify-content:inline;
+    gap:10px;
+    white-space:nowrap;
 }
 .container {
     display:flex;
     justify-content:flex-end;
     gap:15px;
+}
+#home-bold {
+    font-weight:bold;
 }
 .hover1:hover {
     color:#728C69;
@@ -27,6 +35,9 @@ a {
     text-decoration:none;
     color:inherit;
 }
+
+/* heading */
+
 h1 {
     display:flex;
     justify-content:center;
@@ -38,26 +49,17 @@ h1 {
 .form {
     display:flex;
     justify-content:center;
-    padding-top:30px;
+    padding-top:35px;
 }
-.email {
-    display:flex;
-    flex-direction:row;
-    justify-content:inline;
-    gap:3px;
-    margin-top:150px;
-    margin-bottom:0px;
-    font-size:20px;
-}
-.connect {
-    color:#728C69;
-}
+
+/* footer code */
+
 .line-design {
-    padding-top:150;
+    padding-top:400px;
 }
 .footer {
     display:flex;
-    justify-content:inline;
+    justify-content:center;
 }
 .footer-styles {
     display:flex;
