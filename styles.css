@@ -64,13 +64,17 @@ h1 {
     flex-direction:row;
     justify-content:inline;
     gap:3px;
-    margin-top:150px;
-    margin-bottom:0px;
+    margin-bottom:150px;
     font-size:16px;
 }
 .connect {
     color:#728C69;
 }
+
+.contact-logos {
+    gap:15px;
+}
+
 .line-design {
     padding-top:150;
 }
