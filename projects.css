@@ -36,25 +36,6 @@ a {
 
 /*case studies layout code*/
 
-.me {
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-    width:50%;
-}
-h1 {
-    font-size:50px;
-    font-weight:bold;
-    letter-spacing:2px;
-    margin-top:150px;
-}
-.intro {
-    font-size:20px;
-    color:#728C69;
-}
-.background {
-    width:auto;
-}
 .positioning1 {
     display:flex;
     flex-direction:row;
@@ -79,11 +60,9 @@ h1 {
 .project-title {
     font-size:20px;
     padding-top:50px;
-    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif
 }
 .subtitle {
     font-size:15px;
-    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     color:#728C69;
     padding-top:10px;
 }
@@ -122,6 +101,7 @@ img {
     gap:15px;
 }
 
+/*
 @media (min-width:576px) {
     body {
         margin-top:25px;
@@ -146,4 +126,5 @@ img {
         font-size:32px;
     }
 }
+*/
    
