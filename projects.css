@@ -16,6 +16,8 @@ body {
 .navigate {
     display:flex;
     justify-content:inline;
+    gap:10px;
+    white-space:nowrap;
 }
 .container {
     display:flex;
