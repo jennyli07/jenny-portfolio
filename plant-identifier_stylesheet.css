@@ -54,10 +54,13 @@ button {
     justify-content:center;
     padding-top:35px;
 }
-.fileInput {
+
+
+#fileInput {
     display:none;
 }
-.file-label {
+
+.customUploadButton {
     display:inline-block;
     justify-content:space-evenly;
     border:2px solid black;
@@ -67,6 +70,7 @@ button {
     cursor:pointer;
     border-radius:1px;
 }
+
 
 /* footer code */
 

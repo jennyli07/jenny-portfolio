@@ -40,9 +40,17 @@
     <section>
         <div class="form">
             <form>
-                <label for="file-upload" class="file-label">Upload</label>
-                <input type="file" id="file-upload" class="fileInput">
-                <button>Submit</button>
+                <label class="customUploadButton" for="fileInput">Upload</label>
+                <input type="file" id="fileInput"/>
+                <!--
+                <button onclick="uploadFile()">Upload File</button>
+            -->
+                <p id = 'status'></p>
+                <!--
+                <label for="file-upload" class="fileLabel">Upload</label>
+                <input type="file" id="fileUpload" class="fileInput">
+                -->
+                <button id="myButton" type="button">Submit</button>
             </form>
         </div>
     </section>
