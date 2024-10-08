@@ -93,8 +93,10 @@ h1 {
 }
 .subtitle {
     font-size:15px;
-    color:#728C69;
+    color:#A3A3A3;
     padding-top:10px;
+    word-wrap:break-word;
+    width:550px;
 }
 img {
     width:550px;
