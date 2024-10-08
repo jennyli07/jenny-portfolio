@@ -36,6 +36,29 @@ a {
     color:inherit;
 }
 
+/* vertical text */
+
+.vertical-text {
+    position: fixed;
+    left: 0;
+    top: 90%;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size:12px;
+    white-space:nowrap;
+    margin-left: 50px;
+}
+
+.vertical-line {
+    position:fixed;
+    left: 0;
+    top: 64%;
+    width: 0.5px;
+    height: 100px;
+    background-color: #000;
+    margin-left: 57px;
+}
+
 /*brief intro code*/
 
 .me {
@@ -68,9 +91,6 @@ h1 {
     margin-bottom:150px;
     font-size:16px;
 }
-.connect {
-    color:#728C69;
-}
 
 /*footer code*/
 
@@ -86,29 +106,4 @@ h1 {
     display:flex;
     gap:15px;
 }
-/*
-@media (min-width:576px) {
-    body {
-        margin-top:25px;
-        margin-left:150px;
-        margin-right:150px;
-        background-color:#EFEFE9;
-        font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    }
-    .me {
-        display:flex;
-        flex-direction:column;
-        gap:10px;
-        width:100%;
-    }
-    h1 {
-        font-size:70px;
-    }
-    .intro {
-        font-size:40px;
-    }
-    .background {
-        font-size:32px;
-    }
-}
-*/  
+
