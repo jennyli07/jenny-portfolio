@@ -36,6 +36,29 @@ a {
     color:inherit;
 }
 
+/* vertical text */
+
+.vertical-text {
+    position: fixed;
+    left: 0;
+    top: 90%;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size:12px;
+    white-space:nowrap;
+    margin-left: 50px;
+}
+
+.vertical-line {
+    position:fixed;
+    left: 0;
+    top: 57%;
+    width: 0.5px;
+    height: 100px;
+    background-color: #000;
+    margin-left: 57px;
+}
+
 /* footer code */
 
 .line-design {
