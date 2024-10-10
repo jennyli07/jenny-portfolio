@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Plant Health API</title> 
+        <title>Plant Identifier</title> 
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,11 +29,11 @@
                     </div>
                 </div>
             </nav>
+          <!--
             <hr></hr>
+          -->
         </section> 
-        <!DOCTYPE html>
-<html lang="en">
-  <body>
+
     <!-- 1st Row -->
     <div class="container">
       <div class="row pt-5 text-center">
@@ -65,14 +65,16 @@
           <!-- API result will show here -->
           <div class="accordion pt-5" id="accordionExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <!-- <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelStayOpen" aria-expanded="true" aria-controls="collapseOne"> -->
+              <h2 class="accordion-header">
+                <!-- <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelStayOpen" aria-expanded="true" aria-controls="collapseOne">
+                  Plant Information
+                </button> -->
                 <h5>Plant Information</h5>
               </h2>
               <!-- <div id="panelStayOpen-collapseOne" class="accordion-collapse collapse show"> -->
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <img src="https://fakeimg.pl/300x200/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similiar-image">
+                  <img src="https://fakeimg.pl/300x200/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similar-image">
                   <!-- TEXT BODY GOES HERE VIA API CALL -->
                   <div id="plant-name-container"></div>
                   <div id="probability-container"></div>
@@ -83,24 +85,33 @@
                 </div>
               </div>
             </div>
-      
+    
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> -->
-                <h5>Plant Health Information</h5>
-              </h2>
-              <!-- <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample"> -->
-              <!-- Add content for health information here -->
+              <h2 class="accordion-header">
+                <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Plant Health Information
+                </button> -->
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h5>Plant Health Information</h5>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="https://fakeimg.pl/300x200/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similar-image-with-disease">
+                <div id="plant-disease-name-container"></div>
+                <div id="plant-disease-probability"></div>
+                <div id="plant-disease-description"></div>
+                <div id="plant-disease-treatment"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
+    </div>
+  </div>        
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9KwDrMNte87bh95OGNyZPhcTNXj1NW7RuBCsYN/00j1pcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="plant-identifier.js"></script>
     </body>
 </html>
