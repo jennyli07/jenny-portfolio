@@ -87,7 +87,7 @@ button {
 .vertical-line {
     position:fixed;
     left: 0;
-    top: 57%;
+    top: 59%;
     width: 0.5px;
     height: 100px;
     background-color: #000;

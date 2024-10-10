@@ -36,6 +36,63 @@ a {
     color:inherit;
 }
 
+/* heading */
+
+h1 {
+    display:flex;
+    justify-content:center;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-top:150px;
+}
+button {
+    background-color:#728C69;
+}
+.form {
+    display:flex;
+    justify-content:center;
+    padding-top:35px;
+}
+
+#fileInput {
+    display:none;
+}
+
+.customUploadButton {
+    display:inline-block;
+    justify-content:space-evenly;
+    border:2px solid black;
+    padding:1px 6px;
+    background-color:#f0f0f0;
+    color:black;
+    cursor:pointer;
+    border-radius:1px;
+}
+
+/* vertical text */
+
+.vertical-text {
+    position: fixed;
+    left: 0;
+    top: 90%;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size:12px;
+    white-space:nowrap;
+    margin-left: 50px;
+}
+
+.vertical-line {
+    position:fixed;
+    left: 0;
+    top: 61%;
+    width: 0.5px;
+    height: 100px;
+    background-color: #000;
+    margin-left: 57px;
+}
+
 
 
 
