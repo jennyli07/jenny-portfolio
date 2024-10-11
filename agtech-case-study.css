@@ -77,12 +77,21 @@ h1 {
 }
 
 h2 {
-    font-size:20px;
+    font-size:25px;
     color:#A3A3A3;
 }
 
 h3 {
     margin-top:150px;
+}
+
+.summary {
+    
+    width:50%;
+}
+
+p{
+    font-size:17px;
 }
 
 /* footer code */
