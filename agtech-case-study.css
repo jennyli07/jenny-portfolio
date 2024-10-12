@@ -86,16 +86,27 @@ h2 {
 }
 
 .summary {
-    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
-
+/*
+.column-positioning1 {
+    display:flex;
+    flex-direction:column;
+    align-content:space-around;
+    white-space:normal;
+}
+*/
 .subtitle {
     font-size:25px;
     font-weight:bold;
+    width:50%;
 }
 
 p{
     font-size:17px;
+    width:50%;
 }
 
 /* footer code */
