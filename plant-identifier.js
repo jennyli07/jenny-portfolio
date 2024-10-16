@@ -58,13 +58,13 @@ function uploadAndIdentifyPlantID(){
         // Successful state of promise
         .then(function (response){
             console.log('Response from Plant ID API', response.data);
-            displayPlantIDInfo(response.data,base64Image);
+            displayPlantIDInfo(response.data, base64Image);
         })
 
         // Error state of promise
         .catch(function (error){
-            alert(`Error:${error}❌❌❌`);
-            console.error('Error:',error);
+            alert(`Error:${error.response.data} ❌❌❌`)
+            console.error('Error:', error);
         });
     };
 
