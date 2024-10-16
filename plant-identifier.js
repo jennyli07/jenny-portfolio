@@ -2,7 +2,7 @@ const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('#navbar ul');
 console.log(menuToggle)
 
-menuToggle.addEventListener('click', () => {
+menuToggle.addEventListener ('click', () => {
     navLinks.classList.toggle('active');
 });
 
