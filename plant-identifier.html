@@ -86,62 +86,42 @@
       <div class="col"></div>
 
         <!-- Api result will show here -->
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelStayOpen" aria-expanded="true" aria-controls="collapseOne">Plant Information</button>
-<!--
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          </button>
-        -->
-        </h2>
-        <div id="panelStayOpen-collapseOne" class="accordion-collapse collapse show"></div>
-<!--
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample"></div>
-        -->
-          <div class="accordion-body">
-            <img src="https://fakeimg.pl/600x400/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similar-image">
-          </div>
-          <!--TEXT BODY GOES HERE VIA API CALL-->
-          <div id="plant-name-container">
-            <div id="probability-container">
-              <div id="isPlant-container">
-                <div id="common-name-container">
-                  <div id="description-container">
-                    <div id="plant-health-status-container">
-                    </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Plant Information</button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="https://fakeimg.pl/600x400/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similar-image">
+                <div id="plant-name-container">
+                  <div id="probability-container"></div>
+                  <div id="isPlant-container">
+                    <div id="common-name-container"></div>
+                    <div id="description-container"></div>
+                    <div id="plant-health-status-container"></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Plant Health Information</button>
-<!--
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          </button>
-        -->
-        </h2>
-          <div id="panelStayOpen-collapseTwo" class="accordion-collapse collapse show"></div>
-<!--
-        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-        -->
-          <div class="accordion-body">
-            <img src="https://fakeimg.pl/600x400/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similar-image-with-disease">
-            <div id="plant-disease-name-container">
-              <div id="plant-disease-probability">
-                <div id="plant-disease-description">
-                  <div id="plant-disease-treatment">
-                  </div>
+        
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Plant Health Information</button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="https://fakeimg.pl/600x400/?text=Plant.id&font=lobster" class="rounded" alt="..." id="plant-similar-image-with-disease">
+                <div id="plant-disease-name-container">
+                  <div id="plant-disease-probability"></div>
+                  <div id="plant-disease-description"></div>
+                  <div id="plant-disease-treatment"></div>
                 </div>
               </div>
             </div>
           </div>
-      </div>
+        </div>
       
       <footer>
         <div class="line-design">
