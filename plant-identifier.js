@@ -2,7 +2,7 @@ const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('#navbar ul');
 console.log(menuToggle)
 
-menuToggle.addEventListener('click',() => {
+menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
@@ -63,7 +63,7 @@ function uploadAndIdentifyPlantID(){
 
         // Error state of promise
         .catch(function (error){
-            alert(`Error:${error.response.data}❌❌❌`);
+            alert(`Error:${error}❌❌❌`);
             console.error('Error:',error);
         });
     };
@@ -97,7 +97,7 @@ function displayPlantIDInfo(plantIdResponse,base64Image){
     // Create a new <p> tag element for the plant title 
         const plantNameElement = document.createElement('p');
     // Add the name of the plant to the innerHTML of the <p> tag we created 
-        plantNameElement.innerhtml = `<strong> Name: </strong> ${plantIdClassification.suggestions[0].name}`
+        plantNameElement.innerHTML = `<strong> Name: </strong> ${plantIdClassification.suggestions[0].name}`
     // Append the new div that we created to the api result container that we grabbed from our html 
         plantNameContainer.appendChild(plantNameElement);
 
