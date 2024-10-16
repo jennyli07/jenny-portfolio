@@ -43,7 +43,7 @@ function uploadAndIdentifyPlantID(){
 
         // Making the first API call with the base64 image
         axios.post(apiUrlPlantID, {
-            "images": [base64image],
+            "images": [base64Image],
             "latitude": latitude,
             "longitude": longitude,
             "health": health,
@@ -58,13 +58,13 @@ function uploadAndIdentifyPlantID(){
         // Successful state of promise
         .then(function (response){
             console.log('Response from Plant ID API', response.data);
-            displayPlantIDInfo(response.data,base64image);
+            displayPlantIDInfo(response.data,base64Image);
         })
 
         // Error state of promise
         .catch(function (error){
             alert(`Error:${error.response.data}❌❌❌`);
-            console.error('Error',error);
+            console.error('Error:',error);
         });
     };
 
@@ -72,7 +72,7 @@ function uploadAndIdentifyPlantID(){
     reader.readAsDataURL(selectedFile);
 }
 
-function displayPlantIDInfo(plantIdResponse,base64image){
+function displayPlantIDInfo(plantIdResponse,base64Image){
     // ======================================
     // VARIABLE TO STORE THE FIRST SUGGESTION 
     // ======================================
@@ -213,6 +213,66 @@ function displayPlantIDInfo(plantIdResponse,base64image){
     plantDiseaseNameElement.innerHTML = `<strong> Disease: </strong> ${plantDiseaseName}`;
     // Append the new div we created to the container we grabbed from our html 
     plantDiseaseNameContainer.appendChild(plantDiseaseNameElement);
+
+    // ======================================
+    // DISEASE PROBABILITY
+    // ======================================
+    // Grab value form API Response 
+    const plantDiseaseProbability = plantIdDisease.suggestions[0].probability;
+    // Grab container from the front end HTML
+    const plantDiseaseProbabilityContainer = document.getElementById('plant-disease-probability');
+    // Create a new <p> tag element 
+    const plantDiseaseProbabilityElement = document.createElement('p');
+    // Add the text to the inner html of the new <p> tag we created 
+    plantDiseaseProbabilityElement.innerHTML = `<strong> Disease Probability: </strong> ${plantDiseaseProbability}`;
+    // Append the new div we created to the container we grabbed from our html 
+    plantDiseaseProbabilityContainer.appendChild(plantDiseaseProbabilityElement);
+
+    // ======================================
+    // DISEASE DESCRIPTION
+    // ======================================
+    // Grab value form API Response 
+    const plantDiseaseDescription = plantIdDisease.suggestions[0].details.description;
+    // Grab container from the front end HTML
+    const plantDiseaseDescriptionContainer = document.getElementById('plant-disease-description');
+    // Create a new <p> tag element 
+    const plantDiseaseDescriptionElement = document.createElement('p');
+    // Add the text to the inner html of the new <p> tag we created 
+    plantDiseaseDescriptionElement.innerHTML = `<strong> Disease Description: </strong> ${plantDiseaseDescription}`;
+    // Append the new div we created to the container we grabbed from our html 
+    plantDiseaseDescriptionContainer.appendChild(plantDiseaseDescriptionElement);
+
+    // ======================================
+    // DISEASE TREATMENT 
+    // ======================================
+    // Grab value form API Response 
+    const plantDiseaseTreatment = plantIdDisease.suggestions[0].details.treatment;
+    // Grab container from the front end HTML
+    const plantDiseaseTreatmentContainer = document.getElementById('plant-disease-treatment');
+    // Create a new <p> tag element 
+    const plantDiseaseTreatmentElement = document.createElement('p');
+
+    // Do a check if the plant is dead and the object is empty we let the user know that there is no treatment available for dead plants 
+    if (Object.keys(plantDiseaseTreatment).length === 0) {
+        // Add text to the innerHTML of the new <p> tag we created 
+        plantDiseaseTreatmentElement.innerHTML = `<strong> Disease Treatment: </strong> No treatment available`;
+        // Append the new div we created to the container we grabbed from our html 
+        plantDiseaseTreatmentContainer.appendChild(plantDiseaseTreatmentElement);
+    }
+   
+    // Loop through the object and map keys to values 
+    // Then attach them to the HTML container 
+    for (const key in plantDiseaseTreatment) {
+        // If the object has a key value pair 
+        if (plantDiseaseTreatment.hasOwnProperty(key)) {
+            // Create a variable and store the value of each key on each iteration 
+            const plantDiseaseTreatmentValues = plantDiseaseTreatment[key].map(value => `<li>${value}</li>`).join('');
+            // Create a variable that matches the key with the values and wrap them in HTML 
+            const plantDiseaseTreatmentText = `<strong>${key}:</strong> <ul>${plantDiseaseTreatmentValues}</ul>`;
+            // Append the text of the key value pairs into the HTML container 
+            plantDiseaseTreatmentContainer.innerHTML += plantDiseaseTreatmentText;
+        }
+    }
 }
 
 
