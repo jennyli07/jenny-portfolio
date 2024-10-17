@@ -62,9 +62,13 @@ function uploadAndIdentifyPlantID(){
         })
 
         // Error state of promise
-        .catch(function (error){
-            alert(`Error:${error.response.data} ❌❌❌`)
-            console.error('Error:', error);
+        .catch(function (error) {
+            if (error.response) {
+                alert(`Error: ${error.response.data}`);
+            } else {
+                console.error('Network or other error:', error);
+                alert('Something went wrong. Please try again.');
+            }
         });
     };
 
