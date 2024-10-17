@@ -1,10 +1,12 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('#navbar ul');
-console.log(menuToggle)
 
-menuToggle.addEventListener ('click', () => {
-    navLinks.classList.toggle('active');
-});
+// const menuToggle = document.querySelector('.menu-toggle');
+// const navLinks = document.querySelector('#navbar ul');
+// console.log(menuToggle)
+
+// menuToggle.addEventListener ('click', () => {
+//     navLinks.classList.toggle('active');
+// });
+
 
 
 function uploadAndIdentifyPlantID(){
@@ -63,12 +65,8 @@ function uploadAndIdentifyPlantID(){
 
         // Error state of promise
         .catch(function (error) {
-            if (error.response) {
-                alert(`Error: ${error.response.data}`);
-            } else {
-                console.error('Network or other error:', error);
-                alert('Something went wrong. Please try again.');
-            }
+            alert(`Error:${error}❌❌❌`)
+            console.error('Error:', error);
         });
     };
 
@@ -82,8 +80,8 @@ function displayPlantIDInfo(plantIdResponse,base64Image){
     // ======================================
     const plantIdClassification = plantIdResponse.result.classification;
     const plantIdDisease = plantIdResponse.result.disease;
-    const plantIdIsHealthy = plantIdResponse.result.is.healthy;
-    const plantIdIsPlant = plantIdResponse.result.is.plant;
+    const plantIdIsHealthy = plantIdResponse.result.is_healthy;
+    const plantIdIsPlant = plantIdResponse.result.is_plant;
 
     // ======================================
     // PLANT PREVIEW IMAGE
