@@ -52,7 +52,7 @@ a {
 .vertical-line {
     position:fixed;
     left: 0;
-    top: 68%;
+    top: 70%;
     width: 0.5px;
     height: 100px;
     background-color: #000;
