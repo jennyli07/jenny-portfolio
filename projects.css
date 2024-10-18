@@ -18,6 +18,7 @@ body {
     justify-content:inline;
     gap:10px;
     white-space:nowrap;
+    font-weight:bold;
 }
 .container {
     display:flex;
@@ -52,7 +53,7 @@ a {
 .vertical-line {
     position:fixed;
     left: 0;
-    top: 65%;
+    top: 67%;
     width: 0.5px;
     height: 100px;
     background-color: #000;
