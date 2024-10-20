@@ -52,7 +52,7 @@ a {
 .vertical-line {
     position:fixed;
     left: 0;
-    top: 57%;
+    top: 52%;
     width: 0.5px;
     height: 100px;
     background-color: #000;
@@ -82,14 +82,11 @@ h1 {
 }
 
 h2 {
+    font-size:25px;
+    font-weight:bold;
     margin-top:150px;
 }
 
-.summary {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-}
 /*
 .column-positioning1 {
     display:flex;
