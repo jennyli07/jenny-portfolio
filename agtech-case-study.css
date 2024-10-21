@@ -1,0 +1,169 @@
+body {
+    margin-top:25px;
+    margin-left:150px;
+    margin-right:150px;
+    background-color:white;
+    font-family:'Urbanist', sans-serif;
+}
+
+/*nav-bar code*/
+
+.nav-bar {
+    display:flex;
+    justify-content:space-between;
+    font-size:15px;
+}
+.navigate {
+    display:flex;
+    justify-content:inline;
+    gap:10px;
+    white-space:nowrap;
+}
+.container {
+    display:flex;
+    justify-content:flex-end;
+    gap:15px;
+}
+#home-bold {
+    font-weight:bold;
+}
+.hover1:hover {
+    color:#728C69;
+    font-weight:bold;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+/* vertical text */
+
+.vertical-text {
+    position: fixed;
+    left: 0;
+    top: 90%;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size:12px;
+    white-space:nowrap;
+    margin-left: 50px;
+}
+
+.vertical-line {
+    position:fixed;
+    left: 0;
+    top: 52%;
+    width: 0.5px;
+    height: 100px;
+    background-color: #000;
+    margin-left: 57px;
+}
+
+/* content code */
+
+.heading {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:50%;
+}
+
+h1 {
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-top:150px;
+    color:#728C69;
+}
+
+#blurb {
+    font-size:30px;
+    color:#A3A3A3;
+}
+
+h2 {
+    font-size:30px;
+    font-weight:bold;
+    margin-top:150px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+    column-gap: 7rem; /* Adjust this value for spacing between columns */
+    margin-top:25px;
+}
+  
+.col {
+    column-gap: 15px;
+}
+  
+
+.row-other {
+    display: flex;
+    justify-content: space-evenly; /* Centers the headings horizontally */
+    align-items: center;     /* Aligns items vertically in the middle */
+    width:100%;
+}
+  
+.col-other {
+    flex: 1;                 /* Ensures each column takes equal width */
+    text-align: center;       /* Centers the text in each column */
+    padding:10px;
+    margin-top:25px;
+
+}
+
+ul {
+    list-style-position:inside;
+    padding-left:0px;
+    margin-left:0px;
+}
+
+li {
+    padding-left:5px;
+    text-align:left;
+}
+  
+.subtitle {
+    font-size:25px;
+}
+
+p{
+    font-size:17px;
+    margin-top:15px;
+}
+
+hr {
+    margin-top:25px;
+}
+
+.col-other {
+    margin-top:25px;
+}
+
+
+
+
+
+
+
+.test-image {
+    height:400px;
+    width:300px;
+}
+
+/* footer code */
+
+.line-design {
+    padding-top:30px;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+}
+.footer-styles {
+    display:flex;
+    gap:15px;
+}
