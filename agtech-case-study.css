@@ -87,6 +87,18 @@ h2 {
     margin-top:150px;
 }
 
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+    column-gap: 7rem; /* Adjust this value for spacing between columns */
+    margin-top:25px;
+}
+  
+.col {
+    column-gap: 15px;
+}
+  
+
 .row-other {
     display: flex;
     justify-content: space-evenly; /* Centers the headings horizontally */
@@ -106,7 +118,18 @@ h2 {
 
 p{
     font-size:17px;
+    margin-top:15px;
 }
+
+hr {
+    margin-top:25px;
+}
+
+.col-other {
+    margin-top:25px;
+}
+
+
 
 
 
