@@ -141,7 +141,25 @@ hr {
 
 .contents-stickybar1 {
     display:flex;
-    
+    text-align:center;
+    justify-content:space-evenly;
+    font-size:17px;
+    background-color:white;
+    width: 100%;
+    margin:0;
+    position:sticky;
+}
+
+.contents-stickybar2 {
+    display:flex;
+    text-align:center;
+    justify-content:space-evenly;
+    font-size:17px;
+    background-color:white;
+    width: 100%;
+    margin:0;
+    position:sticky;
+    border-bottom: 0.5px solid;
 }
 
 
