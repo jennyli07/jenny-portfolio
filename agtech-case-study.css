@@ -87,21 +87,49 @@ h2 {
     margin-top:150px;
 }
 
+.row {
+    padding:0px;
+}
+
 /*
 .work {
     display:flex;
+    flex-direction:column;
     justify-content:space-between;
+    align-content:space-around;
 }
-*/
+
 
 .summary {
     display:flex;
     justify-content:space-between;
+    flex-direction:row;
 }
+*/
+
+/*
+.summary {
+    display:grid;
+    grid-template-columns: 200px 200px;
+}
+/*
+.work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    flex-direction:row;
+}
+
+.summary {
+    padding: 0px;
+    flex-directionL
+}
+*/
+
+
 
 .subtitle {
     font-size:25px;
-    
 }
 
 p{
