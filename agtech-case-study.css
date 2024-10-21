@@ -89,8 +89,8 @@ h2 {
 
 .row {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
-    column-gap: 7rem; /* Adjust this value for spacing between columns */
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 7rem; 
     margin-top:25px;
 }
   
@@ -98,17 +98,16 @@ h2 {
     column-gap: 15px;
 }
   
-
 .row-other {
     display: flex;
-    justify-content: space-evenly; /* Centers the headings horizontally */
-    align-items: center;     /* Aligns items vertically in the middle */
+    justify-content: space-evenly;
+    align-items: center;   
     width:100%;
 }
   
 .col-other {
-    flex: 1;                 /* Ensures each column takes equal width */
-    text-align: center;       /* Centers the text in each column */
+    flex: 1;         
+    text-align: center;     
     padding:10px;
     margin-top:25px;
 
@@ -118,11 +117,13 @@ ul {
     list-style-position:inside;
     padding-left:0px;
     margin-left:0px;
+    margin-top:15px;
 }
 
 li {
     padding-left:5px;
     text-align:left;
+    font-size:17px;
 }
   
 .subtitle {
@@ -138,9 +139,12 @@ hr {
     margin-top:25px;
 }
 
-.col-other {
-    margin-top:25px;
+.contents-stickybar1 {
+    display:flex;
+    
 }
+
+
 
 
 
