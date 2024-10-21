@@ -87,46 +87,20 @@ h2 {
     margin-top:150px;
 }
 
-
-
-/*
-.work {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    align-content:space-around;
+.row-other {
+    display: flex;
+    justify-content: space-evenly; /* Centers the headings horizontally */
+    align-items: center;     /* Aligns items vertically in the middle */
+    width:100%;
 }
-
-
-.summary {
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
+  
+.col-other {
+    flex: 1;                 /* Ensures each column takes equal width */
+    text-align: center;       /* Centers the text in each column */
 }
-*/
-
-/*
-.summary {
-    display:grid;
-    grid-template-columns: 200px 200px;
-}
-/*
-.work {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    flex-direction:row;
-}
-
-.summary {
-    padding: 0px;
-    flex-directionL
-}
-*/
-
-
-
+  
 .subtitle {
+    margin: 0;               /* Removes default margin from heading tags */
     font-size:25px;
 }
 
