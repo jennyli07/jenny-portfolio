@@ -88,22 +88,29 @@ h2 {
 }
 
 /*
-.column-positioning1 {
+.work {
     display:flex;
-    flex-direction:column;
-    align-content:space-around;
-    white-space:normal;
+    justify-content:space-between;
 }
 */
+
+.summary {
+    display:flex;
+    justify-content:space-between;
+}
+
 .subtitle {
     font-size:25px;
-    font-weight:bold;
-    width:50%;
+    
 }
 
 p{
     font-size:17px;
 }
+
+
+
+
 
 .test-image {
     height:400px;
