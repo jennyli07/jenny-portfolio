@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin-top:25px;
     margin-left:150px;
@@ -110,7 +113,7 @@ h2 {
     text-align: center;     
     padding:10px;
     margin-top:25px;
-
+    min-height: 170px;
 }
 
 ul {
@@ -135,6 +138,10 @@ p{
     margin-top:15px;
 }
 
+.summary1 {
+    margin-top:15px;
+}
+
 hr {
     margin-top:25px;
 }
@@ -145,9 +152,11 @@ hr {
     justify-content:space-evenly;
     font-size:17px;
     background-color:white;
+    overflow:hidden;
+    position:relative;
+    top: 0;
     width: 100%;
     margin:0;
-    position:sticky;
 }
 
 .contents-stickybar2 {
@@ -156,23 +165,26 @@ hr {
     justify-content:space-evenly;
     font-size:17px;
     background-color:white;
+    overflow:hidden;
+    position:relative;
+    top: 0;
     width: 100%;
     margin:0;
-    position:sticky;
-    border-bottom: 0.5px solid;
 }
 
+.sticky-nav {
+    position: sticky; /* Sticks to the top */
+    top: 0;
+    width: 100%;
+}
 
+.centered-list {
+    display:inline-block;
+}
 
-
-
-
-
-
-
-.test-image {
-    height:400px;
-    width:300px;
+h7 {
+    font-size:30px;
+    font-weight:bold;
 }
 
 /* footer code */
