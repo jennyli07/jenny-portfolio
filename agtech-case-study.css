@@ -148,6 +148,10 @@ p{
     margin-top:15px;
 }
 
+.project-analysis1 {
+    margin-top:15px;
+}
+
 hr {
     margin-top:25px;
 }
@@ -181,7 +185,7 @@ hr {
 }
 
 .margin-spacing {
-    margin-top:40px;
+    margin-top:30px;
 }
 
 .sticky-nav {
@@ -218,6 +222,7 @@ h8 {
 
 .underline {
     text-decoration:underline;
+    color:#A3A3A3;
 }
 
 .subtitle-spacing {
@@ -227,6 +232,14 @@ h8 {
 .bold-green {
     color:#728C69;
 }
+
+h14 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+
 
 /* footer code */
 
