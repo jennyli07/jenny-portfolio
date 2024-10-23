@@ -13,19 +13,16 @@ function scrollToTop() {
     });
 }
 
-// script.js
+const stickyNav = document.querySelector("#sticky-nav")
+const observer = new IntersectionObserver(function([e]) {
+    return e.target.classList.toggle("is-pinned", e.intersectionRatio < 1)
+}, {threshold: [1]})
+observer.observe(stickyNav)
 
-window.onscroll = function() {
-    stickyNavbar();
-};
 
-let navbar = document.getElementById("navigation-bar");
-let sticky = navbar.offsetTop;
 
-function stickyNavbar() {
-    if (window.pageYOffset > sticky) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
+
+
+
+
+

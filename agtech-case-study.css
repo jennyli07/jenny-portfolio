@@ -88,6 +88,7 @@ h2 {
     font-size:30px;
     font-weight:bold;
     margin-top:150px;
+    color:#728C69;
 }
 
 .row {
@@ -131,6 +132,7 @@ li {
   
 .subtitle {
     font-size:25px;
+    color:#A3A3A3;
 }
 
 p{
@@ -139,6 +141,10 @@ p{
 }
 
 .summary1 {
+    margin-top:15px;
+}
+
+.project-overview1 {
     margin-top:15px;
 }
 
@@ -157,6 +163,7 @@ hr {
     top: 0;
     width: 100%;
     margin:0;
+    border-bottom: 0.25 solid transparent;
 }
 
 .contents-stickybar2 {
@@ -170,12 +177,21 @@ hr {
     top: 0;
     width: 100%;
     margin:0;
+    border-bottom: 0.25px solid ;
+}
+
+.margin-spacing {
+    margin-top:40px;
 }
 
 .sticky-nav {
     position: sticky; /* Sticks to the top */
-    top: 0;
+    top: -1px;
     width: 100%;
+}
+
+.sticky-nav.is-pinned {
+    
 }
 
 .centered-list {
@@ -185,7 +201,24 @@ hr {
 h7 {
     font-size:30px;
     font-weight:bold;
+    color:#728C69;
 }
+
+.project-phases {
+    display:flex;
+    text-align:center;
+    justify-content:space-evenly;
+}
+
+h8 {
+    margin-top:25px;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+
 
 /* footer code */
 
