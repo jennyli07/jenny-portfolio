@@ -177,7 +177,7 @@ hr {
     top: 0;
     width: 100%;
     margin:0;
-    border-bottom: 0.25px solid ;
+    border-bottom: 0.25px solid lightgray;
 }
 
 .margin-spacing {
@@ -190,9 +190,11 @@ hr {
     width: 100%;
 }
 
+/*
 .sticky-nav.is-pinned {
     
 }
+*/
 
 .centered-list {
     display:inline-block;
@@ -216,6 +218,10 @@ h8 {
 
 .underline {
     text-decoration:underline;
+}
+
+.subtitle-spacing {
+    margin-top:15px;
 }
 
 
