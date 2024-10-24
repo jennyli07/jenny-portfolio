@@ -105,7 +105,7 @@ h2 {
 .row-other {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;   
+    align-items: inline;   
     width:100%;
 }
   
