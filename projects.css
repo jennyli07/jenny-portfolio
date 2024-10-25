@@ -73,16 +73,27 @@ h1 {
 
 .positioning1 {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-between;
     padding-top:150px;
 }
 .column-positioning1 {
     display:flex;
     flex-direction:column;
-    align-content:space-around;
+    align-items:space-around;
     white-space:normal;
 }
+
+.image-positioning {
+    display:flex;
+    justify-content:flex-end;
+}
+/* this class is to be edited (class=title-positioning) */
+
+.title-positioning {
+    display:flex;
+}
+
 .hover2:hover {
     color:#728C69;
     font-weight:bold;
