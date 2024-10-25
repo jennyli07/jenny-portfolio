@@ -245,6 +245,11 @@ h8 {
     margin-top:25px;
 }
 
+h12 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
 .underline {
     text-decoration:underline;
     color:#A3A3A3;
@@ -258,10 +263,33 @@ h8 {
     color:#728C69;
 }
 
-h14 {
+h18 {
     font-size:30px;
     font-weight:bold;
     color:#728C69;
+}
+
+h19 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h20 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h21 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h22 {
+    display:flex;
+    justify-content:center;
 }
 
 /* footer code */
