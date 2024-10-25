@@ -252,6 +252,16 @@ h16 {
     color:#728C69;
 }
 
+h18 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h19 {
+    display:flex;
+    justify-content:center;
+}
 
 /* footer code */
 
