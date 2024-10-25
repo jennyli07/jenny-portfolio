@@ -90,9 +90,7 @@ h1 {
 }
 /* this class is to be edited (class=title-positioning) */
 
-.title-positioning {
-    display:flex;
-}
+
 
 .hover2:hover {
     color:#728C69;
