@@ -227,6 +227,12 @@ h7 {
     width:80%;
 }
 
+.project-phases2 {
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+}
+
 .underline {
     text-decoration:underline;
     color:#A3A3A3;
