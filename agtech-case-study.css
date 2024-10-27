@@ -206,8 +206,9 @@ h7 {
 .project-phases {
     display:flex;
     text-align:center;
-    justify-content:space-evenly;
 }
+
+/* justify-content: space-evenly; */
 
 .bordered-text {
     border: 1px dashed gray;
@@ -216,11 +217,15 @@ h7 {
     border-radius: 5px; /* optional: adds rounded corners */
     line-height:5px;
     color:#728C69;
+    text-align:center;
 }
 
 .phases {
+    display:inline-block;
+    text-align:center;
     font-size:10px;
     padding:10px;
+    width:80%;
 }
 
 
