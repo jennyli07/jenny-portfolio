@@ -206,9 +206,8 @@ h7 {
 .project-phases {
     display:flex;
     text-align:center;
+    justify-content: space-evenly;
 }
-
-/* justify-content: space-evenly; */
 
 .bordered-text {
     border: 1px dashed gray;
@@ -227,7 +226,6 @@ h7 {
     padding:10px;
     width:80%;
 }
-
 
 .underline {
     text-decoration:underline;
@@ -274,6 +272,16 @@ h18 {
 h19 {
     display:flex;
     justify-content:center;
+}
+
+.recommendations-spacing {
+    display:flex;
+    text-align:center;
+    justify-content:space-evenly;
+}
+
+.recommendations1 {
+    
 }
 
 
