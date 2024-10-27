@@ -215,11 +215,13 @@ h7 {
     display: inline-block; /* keeps the border close to the text */
     border-radius: 5px; /* optional: adds rounded corners */
     line-height:5px;
+    color:#728C69;
 }
 
 .phases {
     font-size:10px;
-    padding:3px;
+    padding:10px;
+    text-align:center;
 }
 
 
