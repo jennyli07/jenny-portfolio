@@ -184,6 +184,7 @@ hr {
     position: sticky; /* Sticks to the top */
     top: -1px;
     width: 100%;
+    margin-bottom:30px;
 }
 
 /*
@@ -208,9 +209,19 @@ h7 {
     justify-content:space-evenly;
 }
 
-h8 {
-    margin-top:25px;
+.bordered-text {
+    border: 1px dashed gray;
+    padding: 3px;
+    display: inline-block; /* keeps the border close to the text */
+    border-radius: 5px; /* optional: adds rounded corners */
+    line-height:5px;
 }
+
+.phases {
+    font-size:10px;
+    padding:3px;
+}
+
 
 .underline {
     text-decoration:underline;
