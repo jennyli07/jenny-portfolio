@@ -107,6 +107,25 @@ h2 {
     color:#A3A3A3;
 }
 
+.row-other {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: inline;   
+    width:100%;
+}
+
+.col-other {
+    flex: 1;         
+    text-align: center;     
+    padding:10px;
+    margin-top:25px;
+    min-height: 170px;
+}
+
+.centered-list {
+    display:inline-block;
+}
+
 
 
 
