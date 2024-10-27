@@ -91,6 +91,22 @@ h2 {
     color:#728C69;
 }
 
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 7rem; 
+    margin-top:25px;
+}
+
+.col {
+    column-gap: 15px;
+}
+
+.subtitle {
+    font-size:25px;
+    color:#A3A3A3;
+}
+
 
 
 
