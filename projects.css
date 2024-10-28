@@ -118,16 +118,18 @@ img {
     display:flex;
     justify-content:space-between;
     text-align:inline;
-    width:45%;
+    width:35%;
     align-items:flex-end;
+    margin-top:15px;
 }
 
 .skills2 {
     display:flex;
     justify-content:space-between;
     text-align:inline;
-    width:40%;
+    width:21%;
     align-items:flex-end;
+    margin-top:15px;
 }
 
 .bordered-text {
@@ -136,6 +138,10 @@ img {
     display: inline-block; /* keeps the border close to the text */
     border-radius: 5px; /* optional: adds rounded corners */
     color:#728C69;
+}
+
+p {
+    margin:0;
 }
 
 
