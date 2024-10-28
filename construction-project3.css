@@ -187,6 +187,34 @@ h8 {
     margin-top:25px;
 }
 
+.project-phases {
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+}
+
+.bordered-text {
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+    border: 1px dashed gray;
+    padding: 3px;
+    display: inline-block; /* keeps the border close to the text */
+    border-radius: 5px; /* optional: adds rounded corners */
+    color:#728C69;
+    text-align:center;
+}
+
+.subtitle-spacing {
+    margin-top:15px;
+} 
+
+.phases {
+    display:inline-block;
+    text-align:center;
+    padding:10px;
+}
+
 h26 {
     font-size:30px;
     font-weight:bold;

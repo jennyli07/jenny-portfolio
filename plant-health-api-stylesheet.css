@@ -156,6 +156,11 @@ h2 {
     display:inline-block;
 }
 
+/* check over the "line-spacing" class */
+.line-spacing {
+    margin-top:50px;
+}
+
 ul {
     list-style-position:inside;
     padding-left:0px;
