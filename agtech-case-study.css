@@ -210,11 +210,13 @@ h7 {
 }
 
 .bordered-text {
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
     border: 1px dashed gray;
     padding: 3px;
     display: inline-block; /* keeps the border close to the text */
     border-radius: 5px; /* optional: adds rounded corners */
-    line-height:5px;
     color:#728C69;
     text-align:center;
 }
@@ -231,6 +233,26 @@ h7 {
     display:flex;
     text-align:center;
     justify-content: space-evenly;
+}
+
+.bordered-text2 {
+    display:flex;
+    text-align:center;
+    justify-content: space-evenly;
+    border: 1px dashed gray;
+    padding: 3px;
+    display: inline-block; /* keeps the border close to the text */
+    border-radius: 5px; /* optional: adds rounded corners */
+    color:#728C69;
+    text-align:center;
+}
+
+.phases2 {
+    display:inline-block;
+    text-align:center;
+    font-size:10px;
+    padding:10px;
+    width:80%;
 }
 
 .underline {
