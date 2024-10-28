@@ -118,7 +118,7 @@ img {
     display:flex;
     justify-content:space-between;
     text-align:inline;
-    width:50%;
+    width:45%;
     align-items:flex-end;
 }
 
@@ -129,6 +129,16 @@ img {
     width:40%;
     align-items:flex-end;
 }
+
+.bordered-text {
+    border: 1px dashed gray;
+    padding: 5px;
+    display: inline-block; /* keeps the border close to the text */
+    border-radius: 5px; /* optional: adds rounded corners */
+    color:#728C69;
+}
+
+
 /*lets connect code*/
 
 .email {
