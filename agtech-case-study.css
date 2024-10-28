@@ -232,7 +232,7 @@ h7 {
 .project-phases2 {
     display:flex;
     text-align:center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 .bordered-text2 {
@@ -274,42 +274,44 @@ h14 {
     color:#728C69;
 }
 
-h15 {
-    font-size:30px;
-    font-weight:bold;
-    color:#728C69;
-}
-
 .preliminary-drawings {
     display:flex;
     text-align:center;
 }
 
-h16 {
+h20 {
     font-size:30px;
     font-weight:bold;
     color:#728C69;
 }
 
-h18 {
+h22 {
     font-size:30px;
     font-weight:bold;
     color:#728C69;
 }
 
-h19 {
+h23 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h24 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h26 {
+    font-size:30px;
+    font-weight:bold;
+    color:#728C69;
+}
+
+h27 {
     display:flex;
     justify-content:center;
-}
-
-.recommendations-spacing {
-    display:flex;
-    text-align:center;
-    justify-content:space-evenly;
-}
-
-.recommendations1 {
-    
 }
 
 
