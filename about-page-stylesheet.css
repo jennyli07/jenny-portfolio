@@ -18,8 +18,8 @@ body {
     justify-content:inline;
     gap:10px;
     white-space:nowrap;
-    font-weight:bold;
 }
+
 .container {
     display:flex;
     justify-content:flex-end;
@@ -91,8 +91,9 @@ h2 {
 
 .about-me-image {
     margin-top:50px;
-    width:400px;
-    height:350px;
+    overflow: hidden;
+    border-top-left-radius: 100px;  
+    border-top-right-radius: 100px;  
 }
 
 .about-image {
@@ -111,11 +112,15 @@ h2 {
     font-size:16px;
 }
 
-.line-design {
-    padding-top:150px;
+/*footer code*/
+
+footer {
+    padding-bottom:15px;
 }
 
-/*footer code*/
+.line-design {
+    padding-top:80px;
+}
 
 .footer {
     display:flex;
