@@ -318,8 +318,12 @@ h27 {
 
 /* footer code */
 
+footer {
+    padding-bottom:15px;
+}
+
 .line-design {
-    padding-top:30px;
+    padding-top:150px;
 }
 
 .footer {

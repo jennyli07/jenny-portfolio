@@ -90,8 +90,12 @@ h1 {
 
 /*footer code*/
 
+footer {
+    padding-bottom:15px;
+}
+
 .line-design {
-    padding-top:150px;
+    padding-top:214px;
 }
 
 .footer {
@@ -102,4 +106,3 @@ h1 {
     display:flex;
     gap:15px;
 }
-
