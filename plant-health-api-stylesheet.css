@@ -52,6 +52,20 @@ h1 {
     justify-content:center;
 }
 
+.steps-taken {
+    display:flex;
+    flex-direction:column;
+    align-content:space-evenly;
+    gap:30px;
+}
+
+.steps1 {
+    display:flex;
+    justify-content:center;
+}
+
+
+
 .image-positioning {
     display:flex;
     justify-content:flex-end;
