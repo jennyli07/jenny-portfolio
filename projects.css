@@ -117,9 +117,19 @@ h1 {
     word-wrap:break-word;
     width:70%;
 }
+
 img {
     width:600px;
     height:400px;
+}
+
+.skills {
+    display:flex;
+    justify-content:space-between;
+    text-align:inline;
+    width:35%;
+    align-items:flex-end;
+    margin-top:15px;
 }
 
 .skills1 {
