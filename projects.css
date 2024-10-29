@@ -132,12 +132,22 @@ img {
     margin-top:15px;
 }
 
+.skills3 {
+    display:flex;
+    justify-content:space-between;
+    text-align:inline;
+    width:28%;
+    align-items:flex-end;
+    margin-top:15px;
+}
+
 .bordered-text {
     border: 1px dashed gray;
     padding: 5px;
     display: inline-block; /* keeps the border close to the text */
     border-radius: 5px; /* optional: adds rounded corners */
-    color:#728C69;
+    color:white;
+    background-color:#728C69;
 }
 
 p {
