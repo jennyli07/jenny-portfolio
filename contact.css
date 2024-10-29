@@ -52,7 +52,7 @@ a {
 .vertical-line {
     position:fixed;
     left: 0;
-    top: 64%;
+    top: 68%;
     width: 0.5px;
     height: 100px;
     background-color: #000;
@@ -95,7 +95,7 @@ footer {
 }
 
 .line-design {
-    padding-top:214px;
+    padding-top:262px;
 }
 
 .footer {

@@ -95,16 +95,21 @@ button {
 
 /* footer code */
 
-.line-design {
-    padding-top:400px;
+footer {
+    padding-bottom:15px;
 }
+
+.line-design {
+    padding-top:80px;
+}
+
 .footer {
     display:flex;
     justify-content:center;
 }
+
 .footer-styles {
     display:flex;
-    justify-content:center;
     gap:15px;
 }
 

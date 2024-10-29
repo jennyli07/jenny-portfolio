@@ -7,7 +7,20 @@
 //     navLinks.classList.toggle('active');
 // });
 
+// for the vertical side bar graphic action
+document.getElementById("scrollToTop").addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
 
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
 
 function uploadAndIdentifyPlantID(){
     // Retrieve the photo from the frontend
