@@ -48,8 +48,8 @@ h1 {
 }
 
 .steps {
-    width:1000px;
-    height:800px;
+    display:flex;
+    justify-content:center;
 }
 
 .image-positioning {
