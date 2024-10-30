@@ -85,12 +85,9 @@ h1 {
 }
 
 .image-positioning {
-    display:flex;
-    justify-content:flex-end;
-    margin-top:50px;
+    /* margin-top:50px; */
     overflow: hidden;
-    border-top-left-radius: 100px;  
-    border-top-right-radius: 100px;  
+    border-top-left-radius: 100px;    
 }
 
 
