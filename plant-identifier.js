@@ -1,4 +1,3 @@
-
 // const menuToggle = document.querySelector('.menu-toggle');
 // const navLinks = document.querySelector('#navbar ul');
 // console.log(menuToggle)

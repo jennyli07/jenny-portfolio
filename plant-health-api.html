@@ -275,12 +275,11 @@
             <div class="steps1">
                 <p>Case Sensitivity</p>
             </div>
-                <p>In this code, an API call is made to a plant identification service to assess a plant's health from an uploaded image. Using the <span class="green">axios</span> library, an <span class="green">HTTP POST</span> request is sent to the <span class="green">apiUrlPlantID</span> endpoint. This request includes a data payload containing details about the image, location, and necessary configuration options, such as headers for authentication and content type. One critical component of the payload is the "base64Image" field, which represents the plant image as a base64-encoded string (a format that converts the binary image file into plain text).</p>
+                <p>In this code, an API call is made to a plant identification service to assess a plant's health from an uploaded image. Using the <strong class="green">axios</strong> library, an <strong class="green">HTTP POST</strong> request is sent to the <strong class="green">apiUrlPlantID</strong> endpoint. This request includes a data payload containing details about the image, location, and necessary configuration options, such as headers for authentication and content type. One critical component of the payload is the "base64Image" field, which represents the plant image as a base64-encoded string (a format that converts the binary image file into plain text).</p>
                 <p>The main challenge I encountered was that the API failed to read the image due to a case-sensitivity issue with "base64Image," as JavaScript and many programming languages treat variable names with different cases as distinct. Once I adjusted the case to match the API's requirements, the call worked as expected.</p>
-            <div class="steps1">
-                <p>Response and Error Handling in a JavaScript Promise for an API Call</p>
+            <div class="steps">
+                <img src="challenges-line45-60-75.png" alt="challenges">
             </div>
-                <p>The <strong>.then</strong> method is triggered when the API call to identify a plant is successful, receiving response.data—likely containing the primary data, such as plant identification details. This data is logged to the console for debugging, and a function is then called to display or further process the data, passing along the API response data and the base64-encoded image.</p>
         </section>
 
         <section>
@@ -294,7 +293,17 @@
             <div class="margin-spacing">
                 <h20 id="visual-data">Visual Data/ Results</h20>
             </div>
-            <p>......</p>
+            <div class="steps-taken">
+                <div class="steps">
+                    <img src="plant-api-visual-data1.png" alt="visual-data-1">
+                </div>
+                <div class="steps">
+                    <img src="plant-api-visual-data2.png" alt="visual-data-2">
+                </div>
+                <div class="steps">
+                    <img src="plant-api-visual-data3.png" alt="visual-data-3">
+                </div>
+            </div>
         </section>
 
         <section>
