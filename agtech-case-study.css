@@ -309,6 +309,10 @@ h26 {
     color:#728C69;
 }
 
+.drawings {
+    display:flex;
+    text-align:center;
+}
 
 
 /* footer code */
