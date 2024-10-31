@@ -64,6 +64,20 @@ a {
 
 /* content code */
 
+.row-positioning {
+    display:flex;
+    justify-content:space-around;
+    text-align:inline;
+}
+
+.image-positioning {
+    display:flex;
+    justify-content:flex-end;
+    overflow: hidden;
+    border-top-left-radius: 100px;   
+    margin-top:50px;
+}
+
 .heading {
     display:flex;
     flex-direction:column;
