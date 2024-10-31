@@ -133,7 +133,7 @@ img {
     display:flex;
     justify-content:space-between;
     text-align:inline;
-    width:28%;
+    width:50%;
     align-items:flex-end;
     margin-top:15px;
 }
@@ -142,7 +142,7 @@ img {
     display:flex;
     justify-content:space-between;
     text-align:inline;
-    width:22.5%;
+    width:45%;
     align-items:flex-end;
     margin-top:15px;
 }

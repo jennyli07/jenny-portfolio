@@ -66,16 +66,16 @@ a {
 
 .row-positioning {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     text-align:inline;
 }
 
 .image-positioning {
     display:flex;
     justify-content:flex-end;
+    margin-top:50px;
     overflow: hidden;
     border-top-left-radius: 100px;   
-    margin-top:50px;
 }
 
 .heading {
