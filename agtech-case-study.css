@@ -314,6 +314,20 @@ h26 {
     justify-content:center;
 }
 
+.steps1 {
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    color:#728C69;
+}
+
+.drawings-spacing {
+    display:flex;
+    flex-direction:column;
+    align-content:space-evenly;
+    gap:30px;
+}
+
 
 /* footer code */
 
