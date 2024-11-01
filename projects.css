@@ -201,13 +201,14 @@ footer {
 }
 
 .line-design {
-    padding-top:150px;
+    padding-top:210px;
 }
 
 .footer {
     display:flex;
     justify-content:center;
 }
+
 .footer-styles {
     display:flex;
     gap:15px;
