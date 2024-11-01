@@ -84,8 +84,31 @@ h1 {
     flex-direction:row;
     justify-content:inline;
     gap:10px;
-    margin-bottom:150px;
+    margin-bottom:25px;
     font-size:16px;
+    margin-top: 25px;
+}
+
+.bordered-text {
+    display:flex;
+    justify-content:space-between;
+    border: 1px dashed gray;
+    padding: 5px;
+    display: inline-block; /* keeps the border close to the text */
+    border-radius: 5px; /* optional: adds rounded corners */
+}
+
+.bordered-text:hover {
+    color:#728C69;
+    font-weight:bold;
+}
+
+p {
+    margin:0;
+}
+
+.skills {
+    margin-top:25px;
 }
 
 /*footer code*/
@@ -95,7 +118,7 @@ footer {
 }
 
 .line-design {
-    padding-top:262px;
+    padding-top:345px;
 }
 
 .footer {
