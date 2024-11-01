@@ -46,7 +46,7 @@ function uploadAndIdentifyPlantID(){
 
 
         // store all the variables for the API call
-        const apiKey = 'Fv5W1ATY4XpRSBTIk3H75SrStuA590x7xk9uf4LzvOouTMWZCZ';
+        const apiKey = 'qdJZOjFpiAzIxeDUqcUg3w1TKlaSrsmC18ZwJzlDsHqCrhFSUl';
         const latitude = 49.207;
         const longitude = 16.608;
         const health = 'all';
