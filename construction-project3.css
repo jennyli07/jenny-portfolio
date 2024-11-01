@@ -268,7 +268,8 @@ h32 {
 
 .photo1 {
     display:flex;
-    justify-content:center;
+    justify-content:flex-start center;
+    gap:30px;
 }
 
 
