@@ -259,13 +259,27 @@ h32 {
     color:#728C69;
 }
 
+.steps1 {
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    color:#728C69;
+}
 
+.photo1 {
+    display:flex;
+    justify-content:center;
+}
 
 
 /* footer code */
 
+footer {
+    padding-bottom:15px;
+}
+
 .line-design {
-    padding-top:30px;
+    padding-top:210px;
 }
 
 .footer {
