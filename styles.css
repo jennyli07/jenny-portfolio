@@ -69,7 +69,7 @@ h1 {
 }
 
 .bordered-text:hover {
-    color:#728C69;
+    background-color:#728C69;
     font-weight:bold;
 }
 

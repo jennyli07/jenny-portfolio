@@ -194,15 +194,6 @@ p {
     color:#728C69;
 }
 
-.bordered-text {
-    display:flex;
-    justify-content:space-between;
-    border: 1px dashed gray;
-    padding: 5px;
-    display: inline-block; /* keeps the border close to the text */
-    border-radius: 5px; /* optional: adds rounded corners */
-}
-
 /*footer code*/
 
 footer {
