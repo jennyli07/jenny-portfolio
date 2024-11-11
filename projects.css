@@ -194,6 +194,17 @@ p {
     color:#728C69;
 }
 
+/* check over this code! */
+.image-shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+.image-shadow:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+
 /*footer code*/
 
 footer {
