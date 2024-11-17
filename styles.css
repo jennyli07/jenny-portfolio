@@ -4,8 +4,19 @@ body {
     margin-right:150px;
     background-color:white;
     font-family:'Urbanist', sans-serif;
+    overflow: hidden;
+    background: white;
+    cursor: none;
 }
-  
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
 /*nav-bar code*/
 
 .nav-bar {
