@@ -53,6 +53,7 @@ a {
     font-size:12px;
     white-space:nowrap;
     margin-left: 50px;
+    font-family: "Open-Sans", sans-serif;
 }
 
 .vertical-line {
@@ -106,20 +107,23 @@ h1 {
 
 .hover2:hover {
     color:#728C69;
-    font-weight:bold;
+    font-weight:200;
 }
 .project-title {
     font-size:25px;
     padding-top:50px;
-    font-weight:bold;
+    font-weight:200;
     width:70%;
+    font-family: "Lora", sans-serif;
 }
 .subtitle {
-    font-size:17px;
+    font-size:15px;
     color:#A3A3A3;
     padding-top:10px;
     word-wrap:break-word;
     width:70%;
+    font-family:"Open-Sans", sans-serif;
+    font-weight:200;
 }
 
 img {
@@ -149,12 +153,21 @@ img {
     display:flex;
     justify-content:space-between;
     text-align:inline;
-    width:45%;
+    width:43%;
     align-items:flex-end;
     margin-top:15px;
 }
 
 .skills3 {
+    display:flex;
+    justify-content:space-between;
+    text-align:inline;
+    width:29%;
+    align-items:flex-end;
+    margin-top:15px;
+}
+
+.skills4 {
     display:flex;
     justify-content:space-between;
     text-align:inline;
@@ -170,6 +183,7 @@ img {
     border-radius: 5px; /* optional: adds rounded corners */
     color:white;
     background-color:#728C69;
+    font-size:15px;
 }
 
 p {
@@ -180,11 +194,6 @@ p {
     margin-top:200px;
     margin-bottom:200px;
 }
-
-
-
-
-
 
 /*lets connect code*/
 
@@ -216,6 +225,8 @@ p {
 
 footer {
     padding-bottom:15px;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 15px;
 }
 
 .line-design {
@@ -229,7 +240,7 @@ footer {
 
 .footer-styles {
     display:flex;
-    gap:15px;
+    gap:40px;
 }
 
 /*
