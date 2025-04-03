@@ -4,6 +4,14 @@ body {
     margin-right:150px;
     background-color:white;
     font-family:'Urbanist', sans-serif;
+    background: white;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
 }
 
 /*nav-bar code*/
@@ -12,6 +20,7 @@ body {
     display:flex;
     justify-content:space-between;
     font-size:15px;
+    font-family: "Open-Sans", sans-serif;
 }
 .navigate {
     display:flex;
@@ -22,10 +31,7 @@ body {
 .container {
     display:flex;
     justify-content:flex-end;
-    gap:15px;
-}
-#home-bold {
-    font-weight:bold;
+    gap:40px;
 }
 .hover1:hover {
     color:#728C69;
@@ -63,9 +69,10 @@ a {
 
 h1 {
     font-size:50px;
-    font-weight:bold;
     letter-spacing:2px;
-    margin-top:150px;
+    margin-top:200px;
+    font-family: "Lora", sans-serif;
+    font-weight: 200;
 }
 
 /*case studies layout code*/
@@ -170,8 +177,8 @@ p {
 }
 
 .projects {
-    margin-top:150px;
-    margin-bottom:150px;
+    margin-top:200px;
+    margin-bottom:200px;
 }
 
 
