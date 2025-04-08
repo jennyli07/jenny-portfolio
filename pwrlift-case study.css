@@ -97,9 +97,81 @@ h1 {
     font-family:'Open-Sans', sans-serif;
 }
 
-.section-divider {
+hr {
     color:#728C69;
     margin-top:200px;
+}
+
+.row-other {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: inline;   
+    width:100%;
+}
+  
+.col-other {
+    flex: 1;         
+    text-align: center;     
+    padding:10px;
+    min-height: 170px;
+    margin-top:50px;
+}
+
+.contents {
+    font-size:25px;
+    font-family:'Lora', sans-serif;
+    font-weight:200;
+}
+
+ul {
+    list-style-position:inside;
+    padding-left:0px;
+    margin-left:0px;
+    margin-top:15px;
+}
+
+li {
+    padding-left:5px;
+    text-align:left;
+    font-size:17px;
+}
+  
+.subtitle {
+    font-size:25px;
+    font-family:'Lora', sans-serif;
+    font-weight:bold;
+}
+
+.subtitle-description {
+    font-size:15px;
+    font-family:'Open-Sans', sans-serif;
+}
+
+strong {
+    color:#728C69;
+}
+
+.centered-list {
+    display:inline-block;
+    font-family:'Open-Sans', sans-serif;
+    font-size: 15px;
+    color:#A3A3A3;
+}
+
+.section-divider1 {
+    margin-top:25px;
+}
+
+.section-title {
+    color:#A3A3A3;
+    font-family: 'Opens-Sans', sans-serif;
+    font-size: 15px;
+    font-weight:200;
+    margin-top:100px;
+}
+
+.section-divider2 {
+    margin-top:100px;
 }
 
 /*footer code*/
