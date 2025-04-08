@@ -53,7 +53,7 @@ a {
 .vertical-line {
     position:fixed;
     left: 0;
-    top: 58%;
+    top: 48%;
     width: 0.5px;
     height: 100px;
     background-color: #000000;
@@ -85,17 +85,44 @@ a {
 
 h1 {
     font-size:50px;
-    font-weight:bold;
+    font-weight:200;
     letter-spacing:2px;
-    margin-top:150px;
-    color:#728C69;
+    margin-top:200px;
+    font-family: 'Lora', sans-serif;
 }
 
 #blurb {
     font-size:30px;
     color:#A3A3A3;
+    font-family:'Open-Sans', sans-serif;
 }
 
+.section-divider {
+    color:#728C69;
+    margin-top:200px;
+}
+
+/*footer code*/
+
+footer {
+    padding-bottom:15px;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 15px;
+}
+
+.line-design {
+    padding-top:210px;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+}
+
+.footer-styles {
+    display:flex;
+    gap:40px;
+}
 
 
 
